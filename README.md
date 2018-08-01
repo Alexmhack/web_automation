@@ -109,3 +109,28 @@ up.
 When the user clicks on the download ebook button, there is no sense to display the ebook again.
 So after a user clicked we replace the New user label with Download EBook label. We classify the 
 user with the Download EBook label and display him another card - subscription form card.
+
+Create condition: 
+
+1. Download Ebook condition on click id = "download"
+2. Subscribe condition on click id = "subscribe"
+
+Create labels:
+
+1. Downloaded Ebook label
+2. Subscribed label
+
+Setting triggers to labels:
+
+1. Downloaded Ebook label trigger if Downloaded button is clicked
+2. Subscribed Ebook lable trigger if Subscribed button is clicked
+
+Removing labels:
+
+1. remove label Downloaded Ebook label if has subscribed label
+2. remove new user label if has downloaded label
+
+Dynamic content:
+
+1. If has downloaded ebook label then show the subscribe form
+2. if has subscribed label then show the offer card

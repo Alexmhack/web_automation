@@ -44,3 +44,10 @@ We have a condition, now we can create a wrapper around it. Goto sidenav > Dynam
 Then click on create new wrapper, enter the name for wrapper, we will create a welcome card when 
 the user clicks on the button, so name the wrapper Welcome card, for the code paste the code from 
 the tutorial in the code section and you can see the preview for our card.
+
+# Setting the trigger
+Wrapper and condition have been set but we have no trigger for our dynamic content to show up.
+To set our trigger, inside the content section click on the add button and in the section for 
+triggers for our wrapper click on add button and name our trigger Welcome card trigger, click
+on Condition and from the options select the button test-button and click on set and save the 
+trigger.

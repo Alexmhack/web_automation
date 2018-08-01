@@ -55,3 +55,7 @@ trigger.
 # Publishing Changes
 After we have set the condition, wrapper and the trigger for our condition we have to click on 
 the button at top saying publish changes, publish the changes.
+
+# Checking
+run the live-server using the command live-server and click on the button, the welcome card will
+appear on the right where our test-wrapper is set

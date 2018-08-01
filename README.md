@@ -99,3 +99,8 @@ In the content section for our Dynamic content click on add trigger, name the tr
 content trigger and select the label > New user label and save
 
 Publish changes for our project.
+
+NOTE: When we set the trigger for our New user content > Trigger > Label > make sure you set the 
+option > Does/Doesn't have label option to yes/no, in our case we have to set the option 
+to'yes', it says that does the trigger has label and yes, we want that label for content to show 
+up.

@@ -16,7 +16,18 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Place BrandFlow script here -->
+    <script>
+    (function(){
 
+        var scripts = ["/static/general/bf-core.min.js", "/static/containers/WIE437.js"];
+        for(var i = 0; i < scripts.length; i++) {
+            var script   = document.createElement("script");
+            script.src   = "//brandflow.net" + scripts[i] + "?ts=" + Date.now() + "#";
+            script.async = false;
+            document.head.appendChild(script);
+        }
+    })();
+    </script>
     <!-- Place BrandFlow script here -->
 </head>
 

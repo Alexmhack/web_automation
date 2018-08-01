@@ -16,58 +16,415 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Place BrandFlow script here -->
-    <script>
-    (function(){
 
-        var scripts = ["/static/general/bf-core.min.js", "/static/containers/WIE437.js"];
-        for(var i = 0; i < scripts.length; i++) {
-            var script   = document.createElement("script");
-            script.src   = "//brandflow.net" + scripts[i] + "?ts=" + Date.now() + "#";
-            script.async = false;
-            document.head.appendChild(script);
-        }
-    })();
-    </script>
     <!-- Place BrandFlow script here -->
+
 </head>
 
 <body>
 
-    <div class="container my-5">
+    <!--Main Navigation-->
+    <header>
 
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark purple darken-4">
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="homepage.html">CreativeFolks</a>
 
-        <h2 class="my-5 h2 text-center animated fadeIn">Welcome to MDB & BrandFlow tutorial!</h2>
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <hr>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage.html">Home page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Content marketing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Adwords</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SEO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Social media</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
 
-        <!--Grid row-->
-        <div class="row text-center">
-
-            <p>Are you curious what is this nice, blue button for? Follow the 3. lesson of the tutorial and let the magic happen.</p>
-
-            <!--Grid column-->
-            <div class="col-md-6 mb-4">
-
-                <button id="test-button" type="button" class="btn btn-primary">Click me!</button>
-
+                    <!-- Icons -->
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Collapsible content -->
             </div>
-            <!--Grid column-->
+        </nav>
+        <!--/.Navbar-->
 
-            <!--Grid column-->
-            <div id="test-wrapper" class="col-md-6 mb-4">
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main>
+        <div class="container mt-4">
+
+            <!--Section: Intro-->
+            <section>
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-8 mb-4">
+
+                        <!--Carousel Wrapper-->
+                        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                            <!--Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                            </ol>
+                            <!--/.Indicators-->
+                            <!--Slides-->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="view hm-black-light">
+                                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(142).jpg" alt="First slide">
+                                        <div class="mask"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <h3 class="h3-responsive">Some long title</h3>
+                                        <p>...and even longer description</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <!--Mask color-->
+                                    <div class="view hm-black-strong">
+                                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(132).jpg" alt="Second slide">
+                                        <div class="mask"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <h3 class="h3-responsive">Some long title 2</h3>
+                                        <p>...and even longer description 2</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <!--Mask color-->
+                                    <div class="view hm-black-light">
+                                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(136).jpg" alt="Third slide">
+                                        <div class="mask"></div>
+                                    </div>
+                                    <div class="carousel-caption">
+                                        <h3 class="h3-responsive">Some long title 3</h3>
+                                        <p>...and even longer description 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Slides-->
+                            <!--Controls-->
+                            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <!--/.Controls-->
+                        </div>
+                        <!--/.Carousel Wrapper-->
 
 
+                    </div>
+                    <!--Grid column-->
 
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-4" id="basic-automation-wrapper">
+
+                        <p>Empty column for Dynamic Content</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Intro-->
+
+            <div class="divider-new mt-0 mb-4">
+                <h2 class="h3-responsive">
+                    <strong>What's new?</strong>
+                </h2>
             </div>
-            <!--Grid column-->
+
+            <!--Section: Posts-->
+            <section class="text-center">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight z-depth-1-half rounded">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(3).jpg" class="img-fluid" alt="">
+                            <a href="post-1.html">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+
+                        <!-- Author & date -->
+                        <p class="hp-post-data">
+                            <span>by</span>
+                            <a class="font-up teal-text" href="" target="_blank">Michal Szymanski</a>
+                            <span>- 24.05.2017</span>
+                        </p>
+
+                        <!-- Title -->
+                        <a href="post-1.html" class="dark-grey-text">
+                            <h4 class="mb-3 h4">How to improve your SEO</h4>
+                        </a>
+
+                        <!-- Excerpt -->
+                        <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex molestias, voluptate beatae perspiciatis
+                            repudiandae nesciunt unde ratione praesentium harum, officiis similique ullam nostrum reprehenderit
+                            quidem vero possimus nisi laboriosam quos.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight z-depth-1-half rounded">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(1).jpg" class="img-fluid" alt="">
+                            <a href="post-2.html">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+
+                        <!-- Author & date -->
+                        <p class="hp-post-data">
+                            <span>by</span>
+                            <a class="font-up teal-text" href="" target="_blank">Michal Szymanski</a>
+                            <span>- 24.05.2017</span>
+                        </p>
+
+                        <!-- Title -->
+                        <a href="post-2.html" class="dark-grey-text">
+                            <h4 class="mb-3 h4">Adwords for beginners</h4>
+                        </a>
+
+                        <!-- Excerpt -->
+                        <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex molestias, voluptate beatae perspiciatis
+                            repudiandae nesciunt unde ratione praesentium harum, officiis similique ullam nostrum reprehenderit
+                            quidem vero possimus nisi laboriosam quos.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight z-depth-1-half rounded">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(4).jpg" class="img-fluid" alt="">
+                            <a href="post-3.html">
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+
+                        <!-- Author & date -->
+                        <p class="hp-post-data">
+                            <span>by</span>
+                            <a class="font-up teal-text" href="" target="_blank">Michal Szymanski</a>
+                            <span>- 24.05.2017</span>
+                        </p>
+
+                        <!-- Title -->
+                        <a href="post-3.html" class="dark-grey-text">
+                            <h4 class="mb-3 h4">Advanced email marketing</h4>
+                        </a>
+
+                        <!-- Excerpt -->
+                        <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex molestias, voluptate beatae perspiciatis
+                            repudiandae nesciunt unde ratione praesentium harum, officiis similique ullam nostrum reprehenderit
+                            quidem vero possimus nisi laboriosam quos.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Posts-->
 
         </div>
-        <!--Grid row-->
+    </main>
+    <!--Main layout-->
 
-    </div>
+    <!--Footer-->
+    <footer class="page-footer purple darken-4 mt-0 pt-0">
 
+        <!--Footer Links-->
+        <div class="container">
 
+            <!-- Footer links -->
+            <div class="row text-center text-md-left pb-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="title my-4 font-bold">About me</h6>
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="title my-4 font-bold">Category</h6>
+                    <p>
+                        <a href="#!">Lifestyle</a>
+                    </p>
+                    <p>
+                        <a href="#!">Travel</a>
+                    </p>
+                    <p>
+                        <a href="#!">Work</a>
+                    </p>
+                    <p>
+                        <a href="#!">Fashion</a>
+                    </p>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="title my-4 font-bold">Useful links</h6>
+                    <p>
+                        <a href="#!">Collaboriation</a>
+                    </p>
+                    <p>
+                        <a href="#!">Media about me</a>
+                    </p>
+                    <p>
+                        <a href="#!">Newsletter</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="title my-4 font-bold">Contact</h6>
+                    <p>
+                        <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p>
+                        <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+            <!-- Footer links -->
+
+            <hr>
+
+            <div class="row py-3 d-flex align-items-center">
+
+                <!--Grid column-->
+                <div class="col-md-8 col-lg-9">
+
+                    <!--Copyright-->
+                    <p class="text-center text-md-left grey-text">© 2017 Copyright:
+                        <a href="https://www.MDBootstrap.com">
+                            <strong> MDBootstrap.com</strong>
+                        </a>
+                    </p>
+                    <!--/.Copyright-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-4 col-lg-3 ml-lg-0">
+
+                    <!--Social buttons-->
+                    <div class="social-section text-center text-md-left">
+                        <ul>
+                            <li>
+                                <a class="mr-xl-4">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="mr-xl-4">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="mr-xl-4">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="mr-xl-4">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.Social buttons-->
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </div>
+
+    </footer>
+    <!--/.Footer-->
 
     <!-- SCRIPTS -->
     <!-- JQuery -->

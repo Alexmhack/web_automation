@@ -51,3 +51,7 @@ To set our trigger, inside the content section click on the add button and in th
 triggers for our wrapper click on add button and name our trigger Welcome card trigger, click
 on Condition and from the options select the button test-button and click on set and save the 
 trigger.
+
+# Publishing Changes
+After we have set the condition, wrapper and the trigger for our condition we have to click on 
+the button at top saying publish changes, publish the changes.

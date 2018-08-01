@@ -20,3 +20,15 @@ Login into BrandFlow account from https://brandflow.net using google authenticat
 # Checking
 Unzip the test template folder and git bash in it. Enter live-server in git bash, you should see 
 the welcome page
+
+# BrandFlow
+On the /app/containers page click on Create new containers.
+
+Next we have to select our protocol http or https and domain for our website.
+
+Because we have setup our website in local environment we will select http and locahost/ as domain
+then click 'save'. To activate our container we need to click on the power button(small button in 
+the end).
+
+copy brandflow script from /app/brandflow-script and paste the script in head section between the 
+comments.

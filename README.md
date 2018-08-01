@@ -32,3 +32,8 @@ the end).
 
 copy brandflow script from /app/brandflow-script and paste the script in head section between the 
 comments.
+
+We have to create a condition based on the button #test-button in brandflow.
+In brandflow click on the sidenav and go to automation > conditions. Create new rule and enter the
+fields as Condition: Test condition, Type: Click ID, Operator: equals, Param: test-button (id of 
+our button), then save the rule.

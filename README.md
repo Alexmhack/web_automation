@@ -62,4 +62,6 @@ appear on the right where our test-wrapper is set
 
 # Actual Project work
 All above was seeing how brandflow works, now we will work on our real project. Open the 
-index.html file from CreativeFolks.zip and paste our brandflow script in head tag
+index.html file from CreativeFolks.zip and paste our brandflow script in head tag.
+
+NOTE: live-server serves the html file with name index on localhost port 8080

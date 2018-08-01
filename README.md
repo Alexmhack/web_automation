@@ -59,3 +59,7 @@ the button at top saying publish changes, publish the changes.
 # Checking
 run the live-server using the command live-server and click on the button, the welcome card will
 appear on the right where our test-wrapper is set
+
+# Actual Project work
+All above was seeing how brandflow works, now we will work on our real project. Open the 
+index.html file from CreativeFolks.zip and paste our brandflow script in head tag

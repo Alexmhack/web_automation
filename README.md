@@ -80,3 +80,8 @@ Goto automation > conditions and create new rule.
 
 Condition: New user condition, Folder: unfiled items, Type: page url, Operator: contains, param: 
 http://127.0.0.1
+
+# Setting trigger for new user label
+In the list for our labels, New user label list option has a second column with label > Add label 
+if > click add button and select the condition we have just made and save.
+

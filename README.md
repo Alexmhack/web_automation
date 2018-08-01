@@ -104,3 +104,8 @@ NOTE: When we set the trigger for our New user content > Trigger > Label > make 
 option > Does/Doesn't have label option to yes/no, in our case we have to set the option 
 to'yes', it says that does the trigger has label and yes, we want that label for content to show 
 up.
+
+# Creating first algorithm
+When the user clicks on the download ebook button, there is no sense to display the ebook again.
+So after a user clicked we replace the New user label with Download EBook label. We classify the 
+user with the Download EBook label and display him another card - subscription form card.

@@ -85,3 +85,17 @@ http://127.0.0.1
 In the list for our labels, New user label list option has a second column with label > Add label 
 if > click add button and select the condition we have just made and save.
 
+# Create wrapper for dynamic content
+We will create a wrapper which will show up in the div col with id #basic-automation-wrapper
+
+Create a new wrapper from dynamic content > lists and create new wrapper, name the wrapper Basic 
+automation wrapper and in the wrapper id enter the id for our div col #basic-automation-wrapper
+
+In the second column click on add button and create Content with name New user content and paste 
+the code for new user content from the file download_freebook.html
+
+# Create trigger for new user label
+In the content section for our Dynamic content click on add trigger, name the trigger New user 
+content trigger and select the label > New user label and save
+
+Publish changes for our project.

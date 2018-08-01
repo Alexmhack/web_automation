@@ -65,3 +65,18 @@ All above was seeing how brandflow works, now we will work on our real project. 
 index.html file from CreativeFolks.zip and paste our brandflow script in head tag.
 
 NOTE: live-server serves the html file with name index on localhost port 8080
+
+# New user model
+When a new user visits our website or in our case we have our localhost, we want our website to 
+show an option for downloading free ebook, for this we need to assign a label to the new user 
+entering our website for the first time.
+
+We'll create the following condition:
+
+If Page URL contains http://127.0.0.1 then:
+
+# Create condition for new user label
+Goto automation > conditions and create new rule.
+
+Condition: New user condition, Folder: unfiled items, Type: page url, Operator: contains, param: 
+http://127.0.0.1

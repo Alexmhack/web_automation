@@ -33,7 +33,14 @@ the end).
 copy brandflow script from /app/brandflow-script and paste the script in head section between the 
 comments.
 
+# Brandflow condition
 We have to create a condition based on the button #test-button in brandflow.
 In brandflow click on the sidenav and go to automation > conditions. Create new rule and enter the
 fields as Condition: Test condition, Type: Click ID, Operator: equals, Param: test-button (id of 
 our button), then save the rule.
+
+# Brandflow wrapper
+We have a condition, now we can create a wrapper around it. Goto sidenav > Dynamic content > Lists
+Then click on create new wrapper, enter the name for wrapper, we will create a welcome card when 
+the user clicks on the button, so name the wrapper Welcome card, for the code paste the code from 
+the tutorial in the code section and you can see the preview for our card.
